@@ -103,7 +103,7 @@ case 11...20:
 case 21...31:
     print("третья декада")
 default:
-    <#code#>
+    break
 }
 
 
