@@ -109,8 +109,8 @@ default:
 
 // Проверка первой буквы
 
-var word: String = "bbppeeyy"
-if word.first == "b" {
+var word: String = "eeppe"
+if word.first == "e" {
     print("Первая буква \(word.first!)")
 }
 else {
@@ -125,5 +125,4 @@ for i in nums {
         print("\(i) * \(j) = \(i * j)")
     }
 }
-
 
