@@ -31,37 +31,37 @@ let uintMin :UInt = UInt.min
 let uint8Max :UInt8 = UInt8.max
 let uint8Min :UInt8 = UInt8.min
 
-  print(intMax)
-  print(intMin)
-  print(int32Max)
-  print(int32Min)
-  print(uintMax)
-  print(uintMin)
-  print(uint8Max)
-  print(uint8Min)
-  print(strConst.count)
+print(intMax)
+print(intMin)
+print(int32Max)
+print(int32Min)
+print(uintMax)
+print(uintMin)
+print(uint8Max)
+print(uint8Min)
+print(strConst.count)
 
 //Написать различные выражения с приведением типа
 
 let subRslt = int132Const - Int32(intConst)
-  print(subRslt)
+print(subRslt)
 let addRslt = floatConst + Float(doubleConst)
-  print(addRslt)
+print(addRslt)
 let addRslt2 = Double(intVar) + doubleVar
-  print(addRslt2)
+print(addRslt2)
 let divRslt = int16Var / Int16(intConst)
-  print(divRslt)
+print(divRslt)
 let remRslt = int64Var % Int64(intConst)
-  print(remRslt)
+print(remRslt)
 
 let strToInt = Int(strVar) ?? 0
 let strToIntRslt = strToInt * intVar
-  print(strToIntRslt)
+print(strToIntRslt)
 
 let strRslt = strConst + String(8)
-  print(strRslt)
+print(strRslt)
 let subRslt2 = int132Const - Int32(uint8Max)
-  print(subRslt2)
+print(subRslt2)
 
 // Интерполяция строк
 let a = 20
@@ -69,13 +69,13 @@ let b = 10
 var sum = 0
 
 sum = a - b
-  print("\(a) - \(b) = \(sum)")
+print("\(a) - \(b) = \(sum)")
 sum = a + b
-  print("\(a) + \(b) = \(sum)")
+print("\(a) + \(b) = \(sum)")
 sum = a * b
-  print("\(a) * \(b) = \(sum)")
+print("\(a) * \(b) = \(sum)")
 sum = a / b
-  print("\(a) / \(b) = \(sum)")
+print("\(a) / \(b) = \(sum)")
 
 
 //Ночь или день?
@@ -108,7 +108,6 @@ default:
 
 
 // Проверка первой буквы
-var phrase: String = "bbppeeyy"
 
 var word: String = "bbppeeyy"
 if word.first == "b" {
@@ -119,12 +118,12 @@ else {
 }
 
 //Таблица умножения
-var nums = [2,3,4,5,6,7,8,9]
+var nums = 2...9
 
-  for i in nums {
-      for j in nums {
-          print("\(i) * \(j) = \(i * j)")
-      }
+for i in nums {
+    for j in nums {
+        print("\(i) * \(j) = \(i * j)")
+    }
 }
 
 
